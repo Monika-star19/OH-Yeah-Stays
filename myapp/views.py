@@ -97,6 +97,10 @@ def footer(request):
 def single(request):
     return render(request,'single.html')
 
+def gallery(request):
+    return render(request,'gallery.html')
+
+
 
 
 

@@ -29,5 +29,6 @@ urlpatterns = [
     path('header/', views.header),
     path('footer/', views.footer),
     path('single/', views.single),
+    path('gallery/', views.gallery),
 
 ]
